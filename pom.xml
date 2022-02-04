@@ -15,6 +15,7 @@
       <groupId>androidx.camera</groupId>
       <artifactId>camera-camera2</artifactId>
       <version>1.1.0-beta01</version>
+      <packaging>aar</packaging>
     </dependency>
   </dependencies>
 </project>
