@@ -6,6 +6,10 @@
   <version>1.0</version>
   <repositories>
       <repository>
+         <id>central</id>
+         <url>https://repo.maven.apache.org/maven2</url>
+      </repository>   
+      <repository>
           <id>google</id>
           <url>https://maven.google.com</url>
       </repository>     
