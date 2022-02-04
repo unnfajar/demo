@@ -4,7 +4,6 @@
   <groupId>com.wide.mobile</groupId>
   <artifactId>ekyc</artifactId>
   <version>1.0</version>
-  <packaging>aar</packaging>
   <dependencies>
     <dependency>
       <groupId>com.google.android.material</groupId>
