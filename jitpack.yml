@@ -1,3 +1,1 @@
-install: 
-FILE="-Dfile=ekyc.aar" 
-mvn install:install-file $FILE -DgroupId=com.wide.mobile -DartifactId=ekyc -Dversion=1.0 -Dpackaging=aar -DpomFile=pom.xml
+install: mvn install:install-file -Dfile=ekyc.aar -DgroupId=com.wide.mobile -DartifactId=ekyc -Dversion=1.0 -Dpackaging=aar -DpomFile=pom.xml
