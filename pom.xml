@@ -1,9 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.wide.mobile</groupId>
   <artifactId>ekyc</artifactId>
   <version>1.0</version>
+  <packaging>aar</packaging>
   <repositories>
     <repository>
       <id>google</id>
@@ -16,37 +17,31 @@
       <groupId>com.google.android.gms</groupId>
       <artifactId>play-services-mlkit-text-recognition</artifactId>
       <version>16.2.0</version>
-      <type>aar</type>
     </dependency>
     <dependency>
       <groupId>com.google.android.gms</groupId>
       <artifactId>play-services-mlkit-face-detection</artifactId>
       <version>16.1.7</version>
-      <type>aar</type>
     </dependency>
     <dependency>
       <groupId>androidx.camera</groupId>
       <artifactId>camera-camera2</artifactId>
       <version>1.1.0-beta01</version>
-      <type>aar</type>
     </dependency>
     <dependency>
       <groupId>androidx.camera</groupId>
       <artifactId>camera-view</artifactId>
       <version>1.1.0-beta01</version>
-      <type>aar</type>
     </dependency>
     <dependency>
       <groupId>androidx.camera</groupId>
       <artifactId>camera-lifecycle</artifactId>
       <version>1.1.0-beta01</version>
-      <type>aar</type>
     </dependency>
     <dependency>
       <groupId>org.tensorflow</groupId>
       <artifactId>tensorflow-lite</artifactId>
       <version>2.4.0</version>
-      <type>aar</type>
     </dependency>
   </dependencies>
 </project>
