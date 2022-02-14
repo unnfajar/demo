@@ -13,19 +13,25 @@
     <dependency>
       <groupId>com.google.android.material</groupId>
       <artifactId>material</artifactId>
-      <version>1.4.0</version>
+      <version>1.5.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.google.android.gms</groupId>
       <artifactId>play-services-mlkit-text-recognition</artifactId>
-      <version>16.2.0</version>
+      <version>18.0.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.google.android.gms</groupId>
       <artifactId>play-services-mlkit-face-detection</artifactId>
-      <version>16.1.7</version>
+      <version>17.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.mlkit</groupId>
+      <artifactId>object-detection-custom</artifactId>
+      <version>17.0.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
